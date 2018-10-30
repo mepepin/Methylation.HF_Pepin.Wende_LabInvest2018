@@ -36,9 +36,7 @@ Patient_Data %>% kable(format="latex",
                                 "scale_down"))
 ```
 
-\rowcolors{2}{gray!6}{white}
 \begin{table}
-
 \caption{\label{tab:correlation_patients}Patient Characteristics}
 \centering
 \resizebox{\linewidth}{!}{\begin{tabular}[t]{cccccccccccccccc}
@@ -62,7 +60,6 @@ H & 0 & 54 & 1 & 0 & 0.20 & 1 & 1 & 0 & 1 & 1.52 & 1 & 1 & 1 & 1 & 0\\
 \bottomrule
 \end{tabular}}
 \end{table}
-\rowcolors{2}{white}{white}
 
 ```r
 # Format for Correlation
