@@ -36,31 +36,6 @@ Patient_Data %>% kable(format="latex",
                                 "scale_down"))
 ```
 
-\begin{table}
-\caption{\label{tab:correlation_patients}Patient Characteristics}
-\centering
-\resizebox{\linewidth}{!}{\begin{tabular}[t]{cccccccccccccccc}
-\hiderowcolors
-\toprule
-Sample\_ID & Ischemia & Age & Sex & Race & LV.EF & Obese & HTN & VT & ICD & Cardiac Index & ACE & B.Blocker & Diuretic & Inotrope & Smoking\\
-\midrule
-\showrowcolors
-C & 1 & 49 & 1 & 1 & 0.10 & 1 & 1 & 0 & 1 & 1.10 & 1 & 1 & 1 & 1 & 15\\
-E & 1 & 59 & 1 & 0 & 0.20 & 0 & 1 & 1 & 1 & 1.62 & 1 & 1 & 1 & 0 & 45\\
-I & 1 & 70 & 1 & 0 & 0.20 & 0 & 0 & 1 & 1 & 1.20 & 1 & 1 & 1 & 0 & 15\\
-J & 1 & 65 & 1 & 0 & 0.10 & 1 & 1 & 0 & 1 & 1.56 & 0 & 0 & 0 & 0 & 20\\
-K & 1 & 63 & 1 & 0 & 0.15 & 1 & 1 & 1 & 1 & 2.05 & 1 & 1 & 1 & 0 & 0\\
-\addlinespace
-A & 0 & 54 & 1 & 1 & 0.15 & 1 & 1 & 0 & 1 & 1.51 & 1 & 1 & 1 & 1 & 0\\
-B & 0 & 51 & 1 & 0 & 0.15 & 1 & 1 & 1 & 0 & 2.44 & 0 & 0 & 1 & 0 & 40\\
-D & 0 & 53 & 1 & 1 & 0.10 & 0 & 0 & 1 & 1 &  & 1 & 1 & 1 & 0 & 35\\
-F & 0 & 53 & 1 & 0 & 0.10 & 1 & 0 & 1 & 1 & 2.30 & 1 & 1 & 1 & 1 & 30\\
-G & 0 & 50 & 1 & 0 & 0.25 & 0 & 0 & 1 & 1 & 1.59 & 1 & 1 & 1 & 1 & 0\\
-H & 0 & 54 & 1 & 0 & 0.20 & 1 & 1 & 0 & 1 & 1.52 & 1 & 1 & 1 & 1 & 0\\
-\bottomrule
-\end{tabular}}
-\end{table}
-
 ```r
 # Format for Correlation
 Patient_Data$Obese<-as.numeric(as.factor(Patient_Data$Obese))
