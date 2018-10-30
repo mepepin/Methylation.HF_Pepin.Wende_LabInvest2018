@@ -1301,7 +1301,7 @@ Link_Anchor<-Link_Anchor[1:nrow(Link),]
 circos.genomicLink(Link, Link_Anchor, col="black", lwd=0.5)
 ```
 
-![\label{Circos_DMPs}Circular Genome Plot of all differentially methylated Promoter-Associated CpG Islands with inversely regulated transcript levels.](Human.ICM_PDF_v4_files/figure-html/Circos of 211 DMPs-1.png)
+!(Human.ICM_PDF_v4_files/figure-html/Circos of 211 DMPs-1.png)
 
 ```r
 circos.clear()
